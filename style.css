@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times,;
+    box-sizing: border-box;
+}
+.container{
+    width: 1470px;
+    height: 690px;
+    
+    background-image: linear-gradient(rgba(0,0,77,0.65),rgba(0,0,77,0.65)),url(image/back.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+     border-radius: 50px;
+     
+     
+}
+nav ul{
+    list-style: none;
+    width: 1500%;
+    text-align:right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: pink;
+   
+    cursor: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 25px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+.btn1{
+    background-color: blue;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.content form .btn1{
+    font-size: 15px;
+    padding: 10px 30 px;
+}
+.hi{
+    color: #fff;
+}
